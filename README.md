@@ -16,6 +16,18 @@
 
 The fixes are open for everyone: **[shadps4-emu/shadPS4#4882](https://github.com/shadps4-emu/shadPS4/pull/4882)** — a submission-lock rework, a flip-event race fix and taming of Naughty Dog's "pointer to all memory" descriptors. Next up: cutscenes and gameplay.
 
+## 🗺️ Roadmap
+
+- [x] **Boot** — from "Nothing" to intro logos *(done)*
+- [x] **Title screen** — full art, ~2 min logos *(done — PR #4882)*
+- [x] **Main menu** — rendered & navigable *(done — PR #4882)*
+- [ ] **Loading speed** — the menu-load phase pays HLE event latency per job wave; hunting it next
+- [ ] **Cutscenes** — first in-engine video playback
+- [ ] **Gameplay** — actually playing Drake's Fortune
+- [ ] **30 fps** — the long game: event-delivery latency + readbacks work with upstream
+
+Progress updates land right here and in the PRs.
+
 ## ☕ Support the work
 
 If this helped you play something you love, you can fuel the next debugging marathon:
